@@ -1,0 +1,48 @@
+.alinhacentro {
+    text-align: center;
+}
+.borderT {
+    border-bottom:solid grey 1px; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.borderD {
+    border:solid rgb(221, 221, 222) 1px;
+    padding: 5px; 
+    margin: -10px;
+    border-radius: 4px;
+    transition:0.5s;
+}
+img {
+    width: 100%;
+    transition:0.5s;
+}
+.borderD:hover , img:hover{
+    opacity:0.8;
+    transition:0.5s;
+    background: rgb(236, 236, 246);
+
+}
+.list-group {
+    padding: 5px; 
+    margin: -14px;
+}
+.menu {
+    padding: 0% 8% 0% 8%;
+}
+nav {
+    background: black;
+
+}
+nav a {
+    color: white;
+    transition: 0.2s;
+    font-weight: bold;
+}
+nav a:hover {
+    background: #e5e5e5;
+    color: grey;
+    transition: 0.2s;
+}
