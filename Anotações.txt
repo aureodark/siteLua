@@ -1,0 +1,5 @@
+Sidebar - menu lateral na esquerda escondido
+
+Animation - Para fazer o efeito de movimento da esquerda para a direita
+
+Tag para toda a página para quando o usuário clicar na página fechar o sidebar
