@@ -101,11 +101,6 @@ i {
     color: #fffc00;
 }
 
-.navMobile,
-.esconde {
-    display: none;
-}
-
 
 /*//////////////////////////////////// FIM VISUAL DOS ICONES //////////////////////////*/
 
@@ -120,20 +115,11 @@ i {
 }
 
 @media only screen and (max-width: 425px) {
-    .navDesktop,
     #pag2 {
-        display: none;
-    }
-    .navMobile {
-        display: block;
-    }
-    #closeNav {
         display: none;
     }
     #pag1 {
         width: 10px;
     }
-    .esconde {
-        display: block;
-    }
+
 }
