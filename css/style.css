@@ -1,48 +1,139 @@
 .alinhacentro {
     text-align: center;
 }
+
+img {
+    width: 100%;
+    transition: 0.5s;
+}
+
+
+/*//////////////////////////////////// PAGINA 1 //////////////////////////*/
+
 .borderT {
-    border-bottom:solid grey 1px; 
     padding-bottom: 30px;
     padding-top: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+
+/*//////////////////////////////////// FIM PAGINA 1 //////////////////////////*/
+
+
+/*//////////////////////////////////// PAGINA 2 //////////////////////////*/
+
 .borderD {
-    border:solid rgb(221, 221, 222) 1px;
-    padding: 5px; 
+    border: solid rgb(221, 221, 222) 1px;
+    padding: 5px;
     margin: -10px;
     border-radius: 4px;
-    transition:0.5s;
+    transition: 0.5s;
 }
-img {
-    width: 100%;
-    transition:0.5s;
-}
-.borderD:hover , img:hover{
-    opacity:0.8;
-    transition:0.5s;
-    background: rgb(236, 236, 246);
 
+#pag2 {
+    margin-top: 50px;
 }
+
+.borderD:hover,
+.fotos:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+    background: rgb(236, 236, 246);
+}
+
 .list-group {
-    padding: 5px; 
+    padding: 5px;
     margin: -14px;
 }
-.menu {
-    padding: 0% 8% 0% 8%;
-}
+
+
+/*//////////////////////////////////// FIM PAGINA 2 //////////////////////////*/
+
+
+/*//////////////////////////////////// NAVBAR //////////////////////////*/
+
 nav {
     background: black;
-
 }
-nav a {
+
+nav .nav-item {
     color: white;
     transition: 0.2s;
     font-weight: bold;
 }
-nav a:hover {
+
+nav .nav-item:hover {
     background: #e5e5e5;
     color: grey;
     transition: 0.2s;
+}
+
+
+/*//////////////////////////////////// FIM NAVBAR //////////////////////////*/
+
+
+/*//////////////////////////////////// VISUAL DOS ICONES //////////////////////////*/
+
+.icons {
+    color: white;
+}
+
+i {
+    padding-top: 5px;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+    color: #c13584;
+}
+
+.fa-twitter:hover {
+    color: #1da1f2;
+}
+
+.fa-snapchat-ghost:hover {
+    color: #fffc00;
+}
+
+.navMobile,
+.esconde {
+    display: none;
+}
+
+
+/*//////////////////////////////////// FIM VISUAL DOS ICONES //////////////////////////*/
+
+@media only screen and (max-width: 768px) {
+    nav {
+        height: 100%;
+    }
+    i {
+        font-size: 120%;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .navDesktop,
+    #pag2 {
+        display: none;
+    }
+    .navMobile {
+        display: block;
+    }
+    #closeNav {
+        display: none;
+    }
+    #pag1 {
+        width: 10px;
+    }
+    .esconde {
+        display: block;
+    }
 }
