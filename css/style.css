@@ -69,6 +69,10 @@ nav .nav-item:hover {
     transition: 0.2s;
 }
 
+.navMobile {
+    display: none;
+}
+
 
 /*//////////////////////////////////// FIM NAVBAR //////////////////////////*/
 
@@ -81,7 +85,7 @@ nav .nav-item:hover {
 
 i {
     padding-top: 5px;
-    font-size: 30px;
+    font-size: 160%;
     transition: 0.5s;
 }
 
@@ -104,7 +108,7 @@ i {
 
 /*//////////////////////////////////// FIM VISUAL DOS ICONES //////////////////////////*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     nav {
         height: 100%;
     }
@@ -121,5 +125,23 @@ i {
     #pag1 {
         width: 10px;
     }
-
+    .navMobile {
+        display: block;
+    }
+    .navDesktop {
+        display: none;
+    }
+    i {
+        font-size: 170%;
+        padding-top: 10px;
+        padding-right: 2%;
+    }
+    .nav1 {
+        height: 50px;
+    }
+    .nav1 button {
+        margin-top: -12px;
+        margin-left: -16px;
+        padding-right: 0px;
+    }
 }
